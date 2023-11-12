@@ -140,7 +140,7 @@ else
 	color_echo "red" "Error downloading file. Try again with internet or check if the arch is not i386"
 fi
 
-rm -rf /tmp/frp* && color_echo "green" "[2] Cleaned up temporary files" || color_echo "red" "[!] Error cleaning up temporary files" 
+#rm -rf /tmp/frp* && color_echo "green" "[2] Cleaned up temporary files" || color_echo "red" "[!] Error cleaning up temporary files" 
 
 color_echo "white" "Installation finished. Checking if successfully started..."
 
