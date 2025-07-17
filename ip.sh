@@ -1,4 +1,5 @@
 #!/bin/bash
+#test
 
 
 ip=`route -n | grep UG | tr -s " " | cut -f 2 -d " "`
